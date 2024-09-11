@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sch:ClassXml xmlns:sch="http://example.com/school">
+  <sch:name>10А</sch:name>
+  <sch:students>
+    <sch:name>Иван</sch:name>
+    <sch:surName>Иванов</sch:surName>
+    <sch:age>16</sch:age>
+  </sch:students>
+  <sch:students>
+    <sch:name>Пётр</sch:name>
+    <sch:surName>Петров</sch:surName>
+    <sch:age>17</sch:age>
+  </sch:students>
+  <sch:students>
+    <sch:name>Сидор</sch:name>
+    <sch:surName>Сидоров</sch:surName>
+    <sch:age>16</sch:age>
+  </sch:students>
+  <sch:subjects>
+    <sch:name>Математика</sch:name>
+  </sch:subjects>
+  <sch:subjects>
+    <sch:name>Русский язык</sch:name>
+  </sch:subjects>
+  <sch:subjects>
+    <sch:name>Физика</sch:name>
+  </sch:subjects>
+</sch:ClassXml>

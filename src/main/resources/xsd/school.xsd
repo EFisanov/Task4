@@ -1,0 +1,28 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://example.com/school"
+           xmlns="http://example.com/school"
+           elementFormDefault="qualified">
+    <xs:element name="ClassXml">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="students" type="StudentXml" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="subjects" type="SubjectXml" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="StudentXml">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="surName" type="xs:string"/>
+            <xs:element name="age" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="SubjectXml">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
