@@ -60,7 +60,7 @@ public class Main {
         return objectMapper.readValue(new File(fileName), Class.class);
     }
 
-    public static ClassXmlDocument prepareXmlData() throws IOException {
+    public static ClassXmlDocument prepareXmlData() {
         ClassXmlDocument classDocument = ClassXmlDocument.Factory.newInstance();
         ClassXmlDocument.ClassXml classXml = classDocument.addNewClassXml();
         classXml.setName("10А");
