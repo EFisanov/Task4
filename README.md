@@ -17,7 +17,7 @@ mvn install:install-file -Dfile=<path-to-file>.jar -DgroupId=<group-id> -Dartifa
 ```
 где заменить `<path-to-file>`, `<group-id>`, `<artifact-id>` и `<version>` на соответствующие значения.
 
-![img.png](img.png)
+![img.png](img_1.png)
 
 После того как `jar` файл будет добавлен в локальный репозиторий Maven, его можно будет использовать как обычную зависимость в `pom.xml` файле:
 
